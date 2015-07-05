@@ -5,6 +5,7 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join("plantilla", "vendor", "assets", "images")
 Rails.application.config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 Rails.application.config.assets.paths << Rails.root.join("plantilla", "vendor", "assets", "fonts")
+Rails.application.config.assets.precompile += %w(*.eot *.svg *.ttf *.woff *.otf)
 
 
 # Add additional assets to the asset load path
